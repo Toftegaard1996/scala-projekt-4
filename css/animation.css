@@ -1,0 +1,10 @@
+.scala{
+    width: 150px;
+    height: 150px;
+    background: url('../billede/scala-animation-04-01.png') 0 0 no-repeat;
+    animation: scala 6s steps(82) infinite;
+}
+
+@keyframes scala {
+    0% {background-position: 0px;}
+    100% {background-position: -12300px;}

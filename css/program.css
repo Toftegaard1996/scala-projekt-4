@@ -1,0 +1,599 @@
+/* Alle sider */
+
+body{
+    background-color: #5A5E5D;
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    border: 2px solid black;
+    box-shadow: 1px 3px #474747;
+    color: red;
+    overflow: hidden;
+    background-color: #981825;
+    font-family: 'open sans',sans-serif;
+}
+
+.nav a{
+    float: right;
+    padding: 13px 50px;
+    margin-bottom: auto;
+    margin-top: auto;
+    color: #FFC14D;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+.nav a:hover{
+    background-color: E42438;
+}
+
+.nav a.active{
+    text-decoration: underline;
+}
+
+/* Velkommen */
+
+.velkommen{
+    text-align: center;
+    font-family: 'open sans', sans-serif;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    background: url('../billede/scala-animation-04-01.png') 0 0 no-repeat;
+    animation: scala 6s steps(82) infinite;
+}
+
+@keyframes scala {
+    0% {background-position: 0px;}
+    100% {background-position: -12300px;}
+}
+
+.besked{
+    font-size: 125%;
+}
+
+.link{
+    font-size: 125%;
+    font-family: 'open sans'. sans-serif;
+    color: black;
+}
+
+hr{
+    margin: auto;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    display: block;
+    border-style: dashed;
+    border-width: 2px;
+    width: 80%;
+    opacity: 50%;
+}
+
+/* Plakater */
+
+th, td {
+    padding: 2px;
+    text-align: center;
+    margin: auto;
+}
+
+.pug{
+    border: 2px solid black;
+    width: 530px;
+    height: 580px;
+    text-align: left;
+    margin-left: 15%;
+    margin-bottom: 50px;
+    float: left;
+    font-family: 'open sans', sans-serif;
+}
+
+.pug-text{
+    float: right;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.pug-uge{
+    text-align: center;
+    border-spacing: 10px;
+    margin: auto;
+}
+
+.journey{
+    border: 2px solid black;
+    width: 530px;
+    height: 580px;
+    float: right;
+    margin-right: 15%;
+    margin-bottom: 50px;
+    font-family: 'open sans', sans-serif;
+}
+
+.journey-text{
+    float: right;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.journey-uge{
+    text-align: center;
+    border-spacing: 10px;
+    margin: auto;
+}
+
+.world{
+    border: 2px solid black;
+    width: 530px;
+    height: 580px;
+    float: left;
+    margin-left: 15%;
+    margin-bottom: 50px;
+    font-family: 'open sans', sans-serif;
+}
+
+.world-text{
+    float: right;
+    width: 50%;
+    margin-top: 50px;
+    margin-right: 3px;
+}
+
+.world-uge{
+    text-align: center;
+    border-spacing: 10px;
+    margin:auto;
+}
+
+.jungle{
+    border: 2px solid black;
+    width: 530px;
+    height: 580px;
+    float: right;
+    margin-right: 15%;
+    margin-bottom: 50px;
+    font-family: 'open sans', sans-serif;
+}
+
+.jungle-text{
+    float: right;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.jungle-uge{
+    text-align: center;
+    border-spacing: 10px;
+    margin: auto;
+}
+
+.valentine{
+    border: 2px solid black;
+    width: 530px;
+    height: 580px;
+    float: left;
+    margin-left: 15%;
+    margin-bottom: 50px;
+    font-family: 'open sans', sans-serif;
+}
+
+.valentine-text{
+    float: right;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.valentine-uge{
+    text-align: center;
+    border-spacing: 10px;
+    margin: auto;
+}
+
+.sun{
+    border: 2px solid black;
+    width: 530px;
+    height: 580px;
+    float: right;
+    margin-right: 15%;
+    margin-bottom: 50px;
+    font-family: 'open sans', sans-serif;
+}
+
+.sun-text{
+    float: right;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.sun-uge{
+    text-align: center;
+    border-spacing: 10px;
+    margin: auto;
+}
+
+.blue{
+    border: 2px solid black;
+    width: 530px;
+    height: 580px;
+    float: left;
+    margin-left: 15%;
+    margin-bottom: 50px;
+    font-family: 'open sans',sans-serif;
+}
+
+.blue-text{
+    float: right;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.blue-uge{
+    text-align: center;
+    border-spacing: 10px;
+    margin: auto;
+}
+
+.cake{
+    border: 2px solid black;
+    width: 530px;
+    height: 580px;
+    float: right;
+    margin-right: 15%;
+    margin-bottom: 50px;
+    font-family: 'open sans', sans-serif;
+}
+
+.cake-text{
+    float: right;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.cake-uge{
+    text-align: center;
+    border-spacing: 10px;
+    margin: auto;
+}
+
+.bund{
+    width: 100%;
+    height: 25%;
+    border: 2px solid black;
+    float: left;
+    background-color: #981825;
+    box-shadow: 1px 3px #474747;
+    font-family: 'open sans', sans-serif;
+}
+
+.fb{
+    margin-top: 35px;
+    margin-left: 5%;
+    float: left;
+    text-align: center;
+}
+
+.info{
+    float: left;
+    text-align: center;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 22%;
+    font-size: 125%;
+}
+
+.studerende{
+    height: 50%;;
+    width: 250px;
+    margin-top: 10px;
+    margin-right: 5%;
+    float: right;
+}
+
+.link2{
+    color: black;
+}
+
+
+
+/* Baby bio */
+
+.velkommen-babybio{
+    text-align: center;
+    font-family: 'open sans', sans-serif;
+}
+
+.besked-babybio{
+    font-size: 125%;
+    margin-top: 50px;
+}
+
+/* Breakpoints */
+
+@media only screen and (max-width:600px){
+    
+    .nav a{
+        padding: 13px 15px;
+    }
+    
+    .pug{
+        margin: auto;
+        margin-bottom: 50px;
+        width: 100%;
+        height: 90%;
+        text-align: center;
+    }
+    
+    .pug-text{
+        width: 100%;
+        margin-top: 2%;
+    }
+    
+    .journey{
+        margin: auto;
+        margin-bottom: 50px;
+        width: 100%;
+        height: 90%;
+        text-align: center;
+    }
+    
+    .journey-text{
+        width: 100%;
+        margin-top: 2%;
+        
+    }
+    
+    .world{
+        margin: auto;
+        margin-bottom: 50px;
+        width: 100%;
+        height: 90%;
+        text-align: center;
+    }
+    
+    .world-text{
+        width: 100%;
+        margin-top: 2%;
+    }
+    
+    .jungle{
+        margin: auto;
+        margin-bottom: 50px;
+        width: 100%;
+        height: 90%;
+        text-align: center;
+    }
+    
+    .jungle-text{
+        width: 100%;
+        margin-top: 2%;
+        
+    }
+    
+    .valentine{
+        margin: auto;
+        margin-bottom: 50px;
+        width: 100%;
+        height: 90%;
+        text-align: center;
+    }
+    
+    .valentine-text{
+        width: 100%;
+        margin-top: 2%;
+    }
+    
+    .sun{
+        margin: auto;
+        margin-bottom: 50px;
+        width: 100%;
+        height: 90%;
+        text-align: center;
+    }
+    
+    .sun-text{
+        width: 100%;
+        margin-top: 2%;
+        
+    }
+    
+    .blue{
+        margin: auto;
+        margin-bottom: 50px;
+        width: 100%;
+        height: 90%;
+        text-align: center;
+    }
+    
+    .blue-text{
+        width: 100%;
+        margin-top: 2%;
+    }
+    
+    .cake{
+        margin: auto;
+        margin-bottom: 50px;
+        width: 100%;
+        height: 90%;
+        text-align: center;
+    }
+    
+    .cake-text{
+        width: 100%;
+        margin-top: 2%;
+        
+    }
+    
+    .bund{
+        height: 60%;
+    }
+
+    .fb{
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .info{
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+
+    .studerende{
+        width: 90%;
+        height: 30%;
+    }
+
+}
+
+@media only screen and (min-width:601px) and (max-width:992px){
+    
+    .pug{
+        margin-left: 5%;
+        margin-bottom: 50px;
+    }
+    
+    .journey{
+        margin-right: 5%;
+        float: left;
+        margin-left: 5%;
+    }
+    
+    .world{
+        margin-left: 5%;
+        margin-bottom: 50px;
+    }
+    
+    .jungle{
+        margin-right: 5%;
+        float: left;
+        margin-left: 5%;
+    }
+    
+    .valentine{
+        margin-left: 5%;
+        margin-bottom: 50px;
+    }
+    
+    .sun{
+        margin-right: 5%;
+        float: left;
+        margin-left: 5%;
+    }
+    
+    .blue{
+        margin-left: 5%;
+        margin-bottom: 50px;
+    }
+    
+    .cake{
+        margin-right: 5%;
+        float: left;
+        margin-left: 5%;
+    }
+    
+    .bund{
+        height: 50%;
+    }
+    
+    .fb{
+        margin-left:0%;
+    }
+    
+    .info{
+        margin-left: 0%;
+    }
+    
+    .studerende{
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (min-width:993px) and (max-width:1200px){
+    .pug{
+        margin-left: 5%;
+    }
+    
+    .journey{
+        margin-right: 5%;
+    }
+    
+    .world{
+        margin-left: 5%;
+    }
+    
+    .junlge{
+        margin-right: 5%;
+    }
+    
+    .valentine{
+        margin-left: 5%;
+    }
+    
+    .sun{
+        margin-right: 5%;
+    }
+    
+    .blue{
+        margin-left: 5%;
+    }
+    
+    .cake{
+        margin-right: 5%;
+    }
+    
+    .fb{
+        margin-left: 2%;
+    }
+    
+    .info{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+}
+
+@media only screen and (min-width:1201px)and (max-width:1600px){
+    
+    .pug{
+        margin-left: 4%;
+    }
+    
+    .journey{
+        margin-right: 4%;
+    }
+    
+    .world{
+        margin-left: 4%;
+    }
+    
+    .jungle{
+        margin-right: 4%;
+    }
+    
+    .valentine{
+        margin-left: 4%;
+    }
+    
+    .sun{
+        margin-right: 4%;
+    }
+    
+    .blue{
+        margin-left: 4%;
+    }
+    
+    .cake{
+        margin-right: 4%;
+    }
+
+    
+    .info{
+        margin-left: 12%;
+    }
+    
+}
